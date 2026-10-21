@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Aayush – web developer and designer.">
+  <title>Aayush | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Aayush – home">Aayush<span>.</span></a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="nav-menu" class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false">🌙</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Aayush</h1>
+          <p class="typing-line">I'm a <span id="typed-text" aria-live="off"></span><span class="cursor" aria-hidden="true">|</span></p>
+          <p class="lead">I build clean, accessible and responsive websites. This portfolio showcases my skills and the projects I'm proud of.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgMzIwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBvcnRyYWl0IHBsYWNlaG9sZGVyIj4KICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM2MzY2ZjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyMmMxYzMiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgZmlsbD0idXJsKCNnKSIvPgogIDxjaXJjbGUgY3g9IjE2MCIgY3k9IjEyNCIgcj0iNTYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuOTIiLz4KICA8cGF0aCBkPSJNNDggMzIwYzAtNjYgNDktMTEwIDExMi0xMTBzMTEyIDQ0IDExMiAxMTB6IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjkyIi8+Cjwvc3ZnPgo=" alt="Illustrated portrait placeholder of Aayush, the portfolio owner" width="320" height="320">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <p>
+            Hi! I'm Aayush, a student and aspiring web developer based in Gujarat, India.
+            I enjoy turning ideas into functional, good-looking websites using HTML, CSS and JavaScript.
+          </p>
+          <p>
+            When I'm not coding, I like learning new technologies, exploring design trends and working on
+            small side projects. I care about writing readable code and making the web usable for everyone.
+          </p>
+        </div>
+        <ul class="stats" aria-label="Quick facts">
+          <li><strong>10+</strong><span>Projects built</span></li>
+          <li><strong>3</strong><span>Core languages</span></li>
+          <li><strong>100%</strong><span>Curiosity</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li>
+            <div class="skill-label"><span>HTML5</span><span>90%</span></div>
+            <div class="bar" role="progressbar" aria-label="HTML5 proficiency" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><div class="bar-fill" data-level="90"></div></div>
+          </li>
+          <li>
+            <div class="skill-label"><span>CSS3</span><span>85%</span></div>
+            <div class="bar" role="progressbar" aria-label="CSS3 proficiency" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div class="bar-fill" data-level="85"></div></div>
+          </li>
+          <li>
+            <div class="skill-label"><span>JavaScript</span><span>75%</span></div>
+            <div class="bar" role="progressbar" aria-label="JavaScript proficiency" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><div class="bar-fill" data-level="75"></div></div>
+          </li>
+          <li>
+            <div class="skill-label"><span>Git &amp; GitHub</span><span>70%</span></div>
+            <div class="bar" role="progressbar" aria-label="Git and GitHub proficiency" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><div class="bar-fill" data-level="70"></div></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="filters" role="group" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter-btn" data-filter="design" aria-pressed="false">Design</button>
+          <button class="filter-btn" data-filter="app" aria-pressed="false">App</button>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-category="web">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjQwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkJsb2cgcGxhY2Vob2xkZXIiPjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjQwIiBmaWxsPSIjZWVmMGZmIi8+PHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzNiIgZmlsbD0iIzRmNDZlNSIvPjxyZWN0IHg9IjIwIiB5PSI1NiIgd2lkdGg9IjE3MCIgaGVpZ2h0PSIxNCIgcng9IjQiIGZpbGw9IiM0ZjQ2ZTUiIG9wYWNpdHk9Ii43Ii8+PHJlY3QgeD0iMjAiIHk9Ijg0IiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjkwIiByeD0iOCIgZmlsbD0iI2M3Y2JmZiIvPjxyZWN0IHg9IjIxMCIgeT0iODQiIHdpZHRoPSIxNzAiIGhlaWdodD0iOTAiIHJ4PSI4IiBmaWxsPSIjYzdjYmZmIi8+PHJlY3QgeD0iMjAiIHk9IjE5MCIgd2lkdGg9IjM2MCIgaGVpZ2h0PSIxMCIgcng9IjQiIGZpbGw9IiNhM2E5YzYiLz48cmVjdCB4PSIyMCIgeT0iMjEwIiB3aWR0aD0iMjYwIiBoZWlnaHQ9IjEwIiByeD0iNCIgZmlsbD0iI2EzYTljNiIvPjwvc3ZnPgo=" alt="Screenshot placeholder of a personal blog website with a header and article cards" loading="lazy" width="400" height="240">
+            <div class="card-body">
+              <h3>Personal Blog</h3>
+              <p>A simple, responsive blog layout built with semantic HTML and CSS Grid.</p>
+              <p class="tags"><span>HTML</span><span>CSS</span></p>
+            </div>
+          </article>
+
+          <article class="card" data-category="app">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjQwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlRvLWRvIHBsYWNlaG9sZGVyIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgZmlsbD0iI2U5ZmJmNSIvPjxyZWN0IHg9IjYwIiB5PSIzMCIgd2lkdGg9IjI4MCIgaGVpZ2h0PSIxODAiIHJ4PSIxNCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMjJjMWMzIiBzdHJva2Utd2lkdGg9IjMiLz48cmVjdCB4PSI4NCIgeT0iNTYiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgcng9IjUiIGZpbGw9IiMyMmMxYzMiLz48cmVjdCB4PSIxMjAiIHk9IjYyIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjEwIiByeD0iNCIgZmlsbD0iIzlhYTNiNSIvPjxyZWN0IHg9Ijg0IiB5PSIxMDIiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgcng9IjUiIGZpbGw9IiMyMmMxYzMiLz48cmVjdCB4PSIxMjAiIHk9IjEwOCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSIxMCIgcng9IjQiIGZpbGw9IiM5YWEzYjUiLz48cmVjdCB4PSI4NCIgeT0iMTQ4IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI1IiBmaWxsPSJub25lIiBzdHJva2U9IiMyMmMxYzMiIHN0cm9rZS13aWR0aD0iMyIvPjxyZWN0IHg9IjEyMCIgeT0iMTU0IiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjEwIiByeD0iNCIgZmlsbD0iIzlhYTNiNSIvPjwvc3ZnPgo=" alt="Screenshot placeholder of a to-do list app showing checked and unchecked tasks" loading="lazy" width="400" height="240">
+            <div class="card-body">
+              <h3>To-Do List App</h3>
+              <p>Add, complete and delete tasks. Data is saved in the browser with localStorage.</p>
+              <p class="tags"><span>JavaScript</span><span>DOM</span></p>
+            </div>
+          </article>
+
+          <article class="card" data-category="design">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjQwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkxhbmRpbmcgcGFnZSBwbGFjZWhvbGRlciI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNGY0NmU1Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYTg1NWY3Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSIyNDAiIGZpbGw9InVybCgjYSkiLz48cmVjdCB4PSI0MCIgeT0iNjAiIHdpZHRoPSIyNDAiIGhlaWdodD0iMjQiIHJ4PSI2IiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNDAiIHk9Ijk2IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjI0IiByeD0iNiIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iLjgiLz48cmVjdCB4PSI0MCIgeT0iMTQ0IiB3aWR0aD0iMTEwIiBoZWlnaHQ9IjM0IiByeD0iMTciIGZpbGw9IiNmZmYiLz48Y2lyY2xlIGN4PSIzMjAiIGN5PSIxMjAiIHI9IjQ4IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuMjUiLz48L3N2Zz4K" alt="Preview placeholder of a landing page design with a bold headline and call-to-action button" loading="lazy" width="400" height="240">
+            <div class="card-body">
+              <h3>Landing Page Design</h3>
+              <p>A modern product landing page concept focused on typography and colour.</p>
+              <p class="tags"><span>UI</span><span>CSS</span></p>
+            </div>
+          </article>
+
+          <article class="card" data-category="web">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjQwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IldlYXRoZXIgcGxhY2Vob2xkZXIiPjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjQwIiBmaWxsPSIjZThmM2ZmIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iOTAiIHI9IjM4IiBmaWxsPSIjZmJiZjI0Ii8+PGVsbGlwc2UgY3g9IjE1MCIgY3k9IjExMiIgcng9IjU2IiByeT0iMjgiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI0MCIgeT0iMTcwIiB3aWR0aD0iNzYiIGhlaWdodD0iNTAiIHJ4PSIxMCIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjEzMiIgeT0iMTcwIiB3aWR0aD0iNzYiIGhlaWdodD0iNTAiIHJ4PSIxMCIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjIyNCIgeT0iMTcwIiB3aWR0aD0iNzYiIGhlaWdodD0iNTAiIHJ4PSIxMCIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjMxNiIgeT0iMTcwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHJ4PSIxMCIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjI1MCIgeT0iNTAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTQiIHJ4PSI0IiBmaWxsPSIjNGY0NmU1IiBvcGFjaXR5PSIuNyIvPjwvc3ZnPgo=" alt="Screenshot placeholder of a weather dashboard with temperature and forecast tiles" loading="lazy" width="400" height="240">
+            <div class="card-body">
+              <h3>Weather Dashboard</h3>
+              <p>Shows the current weather and forecast for a searched city using a public API.</p>
+              <p class="tags"><span>JavaScript</span><span>API</span></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-wrap">
+        <h2>Contact Me</h2>
+        <p>Have a question or want to work together? Send me a message.</p>
+
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
+            <small class="error" id="name-error" role="alert"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+            <small class="error" id="email-error" role="alert"></small>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+            <small class="error" id="message-error" role="alert"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Aayush. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
